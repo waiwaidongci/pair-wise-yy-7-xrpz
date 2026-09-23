@@ -1,6 +1,192 @@
 {
   "items": [
     {
+      "id": "MR-muemvkyf25",
+      "code": "MR-E2E",
+      "shipType": "福船",
+      "scale": "1:48",
+      "allowanceMm": 3,
+      "mastCount": 3,
+      "riggingMaterial": "",
+      "owner": "周宁",
+      "dueDate": "",
+      "status": "已交付",
+      "tasks": [
+        {
+          "id": "T-muemvkyi7s",
+          "position": "前桅侧支索",
+          "designLength": 9600,
+          "tension": "偏松",
+          "status": "校准完成",
+          "calibratedAt": "2026-09-23T21:47:11.728Z",
+          "entries": [
+            {
+              "id": "E-muemvkyrlw",
+              "at": "2026-09-23T21:47:11.715Z",
+              "shift": "晚班",
+              "cutLength": 9792,
+              "batch": "MX-2407",
+              "twist": "Z",
+              "handedBy": "周宁",
+              "receiver": "郑铎",
+              "tensionReading": "42cN 偏松",
+              "note": "",
+              "remeasure": {
+                "measuredModelMm": 204.5,
+                "designModel": 200,
+                "diff": 4.5,
+                "allowance": 3,
+                "result": "fail",
+                "signer": "周宁",
+                "at": "2026-09-23T21:47:11.718Z",
+                "note": ""
+              }
+            },
+            {
+              "id": "E-muemvkyxmz",
+              "at": "2026-09-23T21:47:11.721Z",
+              "shift": "早班",
+              "cutLength": 9600,
+              "batch": "MX-2408",
+              "twist": "Z",
+              "handedBy": "郑铎",
+              "receiver": "冯远",
+              "tensionReading": "40cN",
+              "note": "重裁",
+              "remeasure": {
+                "measuredModelMm": 201,
+                "designModel": 200,
+                "diff": 1,
+                "allowance": 3,
+                "result": "pass",
+                "signer": "周宁",
+                "at": "2026-09-23T21:47:11.724Z",
+                "note": ""
+              }
+            }
+          ],
+          "logs": [
+            {
+              "at": "2026-09-23T21:47:11.706Z",
+              "note": "建立索位"
+            },
+            {
+              "at": "2026-09-23T21:47:11.715Z",
+              "note": "新班交接：郑铎 接手，下料 9792mm"
+            },
+            {
+              "at": "2026-09-23T21:47:11.721Z",
+              "note": "新班交接：冯远 接手，下料 9600mm"
+            }
+          ]
+        },
+        {
+          "id": "T-muemvkz7c4",
+          "position": "主桅升帆索",
+          "designLength": 12000,
+          "tension": "",
+          "status": "校准完成",
+          "calibratedAt": "2026-09-23T21:47:11.739Z",
+          "entries": [
+            {
+              "id": "E-muemvkzcai",
+              "at": "2026-09-23T21:47:11.736Z",
+              "shift": "",
+              "cutLength": 12000,
+              "batch": "MX-2409",
+              "twist": "S",
+              "handedBy": "冯远",
+              "receiver": "郑铎",
+              "tensionReading": "",
+              "note": "",
+              "remeasure": {
+                "measuredModelMm": 249,
+                "designModel": 250,
+                "diff": -1,
+                "allowance": 3,
+                "result": "pass",
+                "signer": "周宁",
+                "at": "2026-09-23T21:47:11.738Z",
+                "note": ""
+              }
+            }
+          ],
+          "logs": [
+            {
+              "at": "2026-09-23T21:47:11.731Z",
+              "note": "建立索位"
+            },
+            {
+              "at": "2026-09-23T21:47:11.736Z",
+              "note": "新班交接：郑铎 接手，下料 12000mm"
+            }
+          ]
+        }
+      ],
+      "logs": [
+        {
+          "at": "2026-09-23T21:47:11.703Z",
+          "step": "建档",
+          "note": "创建模型"
+        },
+        {
+          "at": "2026-09-23T21:47:11.706Z",
+          "step": "索位",
+          "note": "前桅侧支索 建位"
+        },
+        {
+          "at": "2026-09-23T21:47:11.715Z",
+          "step": "停待复尺",
+          "note": "前桅侧支索 · 周宁→郑铎 · 批号MX-2407 · Z捻 · 模型204mm · 越过裕量停待复尺"
+        },
+        {
+          "at": "2026-09-23T21:47:11.718Z",
+          "step": "复测",
+          "note": "前桅侧支索 · 实测204.5mm 差值4.5mm · 不合格 · 周宁签字"
+        },
+        {
+          "at": "2026-09-23T21:47:11.721Z",
+          "step": "交接",
+          "note": "前桅侧支索 · 郑铎→冯远 · 批号MX-2408 · Z捻 · 模型200mm"
+        },
+        {
+          "at": "2026-09-23T21:47:11.724Z",
+          "step": "复测",
+          "note": "前桅侧支索 · 实测201mm 差值1mm · 合格 · 周宁签字"
+        },
+        {
+          "at": "2026-09-23T21:47:11.728Z",
+          "step": "校准",
+          "note": "前桅侧支索 校准完成封档"
+        },
+        {
+          "at": "2026-09-23T21:47:11.731Z",
+          "step": "索位",
+          "note": "主桅升帆索 建位"
+        },
+        {
+          "at": "2026-09-23T21:47:11.736Z",
+          "step": "交接",
+          "note": "主桅升帆索 · 冯远→郑铎 · 批号MX-2409 · S捻 · 模型250mm"
+        },
+        {
+          "at": "2026-09-23T21:47:11.738Z",
+          "step": "复测",
+          "note": "主桅升帆索 · 实测249mm 差值-1mm · 合格 · 周宁签字"
+        },
+        {
+          "at": "2026-09-23T21:47:11.739Z",
+          "step": "校准",
+          "note": "主桅升帆索 校准完成封档"
+        },
+        {
+          "at": "2026-09-23T21:47:11.740Z",
+          "step": "设置",
+          "note": "更新模型参数/状态"
+        }
+      ]
+    },
+    {
       "code": "MR-001",
       "shipType": "福船",
       "scale": "1:48",
@@ -20,7 +206,10 @@
               "at": "2026-06-12",
               "note": "已缩短2mm"
             }
-          ]
+          ],
+          "entries": [],
+          "designLength": null,
+          "calibratedAt": null
         },
         {
           "id": "T-1782013829186",
@@ -32,7 +221,10 @@
               "at": "2026-06-21T03:50:29.186Z",
               "note": "回退半圈"
             }
-          ]
+          ],
+          "entries": [],
+          "designLength": null,
+          "calibratedAt": null
         }
       ],
       "logs": [
@@ -41,7 +233,8 @@
           "step": "帆索",
           "note": "后桅升帆索 · 偏紧"
         }
-      ]
+      ],
+      "allowanceMm": 3
     }
   ]
 }
